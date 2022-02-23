@@ -7,7 +7,7 @@ rocmmender
 '''
 def recommend_random(samples):
     '''
-    rocmmender
+    samples of movies
     '''
     user_movies = movies.sample(samples)
     return user_movies
