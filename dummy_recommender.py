@@ -9,6 +9,6 @@ rocmmender
 
 def recommend_random(samples):
     user_movies = movies.sample(samples)
-    movie_ids = [random.randint(1,90) for i in range(0,5) if random.randint(1,90) not in user_movies]
+    m_ids = [random.randint(1,90) for i in range(0,5) if random.randint(1,90) not in user_movies]
     recs = [movies['title'][i] for i in movie_ids if i in movies['movieId']]
-    return dict(zip(movie_ids,recs))
+    return dict(zip(m_ids,recs))
