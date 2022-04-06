@@ -3,4 +3,4 @@
 The dataset is provided from:
 https://archive.ics.uci.edu/ml/datasets/banknote+authentication
 
-For cluster connection its URL should be given in Sparksession.
+For cluster connection, its URL should be given in Sparksession.
