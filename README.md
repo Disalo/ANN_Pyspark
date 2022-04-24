@@ -1,4 +1,4 @@
-# Here is an example to excecute implementation of an artificial neural network using PySpark for a binary class prediction use-case.
+# Here is an example to execute implementation of an artificial neural network using PySpark for a binary class prediction use-case.
 
 The dataset is provided from:
 https://archive.ics.uci.edu/ml/datasets/banknote+authentication
